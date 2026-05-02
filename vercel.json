@@ -1,5 +1,36 @@
-﻿{
+{
   "rewrites": [
-    { "source": "/screens/:path*", "destination": "/src/screens/:path*" }
+    {
+      "source": "/screens/perfil_do_artista_kira_99.html",
+      "destination": "/src/screens/artist-profile.html"
+    },
+    {
+      "source": "/src/screens/perfil_do_artista_kira_99.html",
+      "destination": "/src/screens/artist-profile.html"
+    },
+    {
+      "source": "/screens/biblioteca_de_m_sica.html",
+      "destination": "/src/screens/library.html"
+    },
+    {
+      "source": "/src/screens/biblioteca_de_m_sica.html",
+      "destination": "/src/screens/library.html"
+    },
+    {
+      "source": "/screens/player_de_m_sica.html",
+      "destination": "/src/screens/player.html"
+    },
+    {
+      "source": "/src/screens/player_de_m_sica.html",
+      "destination": "/src/screens/player.html"
+    },
+    {
+      "source": "/screens/explorar_m_sica.html",
+      "destination": "/src/screens/explore.html"
+    },
+    {
+      "source": "/src/screens/explorar_m_sica.html",
+      "destination": "/src/screens/explore.html"
+    }
   ]
 }
